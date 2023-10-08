@@ -1,0 +1,30 @@
+/* Add some basic styling to make it visually appealing */
+
+body {
+    background-color: lightblue;
+    text-align: center;
+}
+
+h1 {
+    color: gray;
+}
+ 
+#meme_img {
+    width: 200px;
+    position: absolute;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button:disabled {
+    background-color: red;
+    cursor: not-allowed;
+}
